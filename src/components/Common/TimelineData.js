@@ -4,16 +4,20 @@ class TimelineData extends Component {
   render() {
     return (
       <li>
-        <div class='timeline-image'>
-          <img class='rounded-circle img-fluid' src={this.props.image} alt='' />
+        <div className='timeline-image'>
+          <img
+            className='rounded-circle img-fluid'
+            src={this.props.image}
+            alt=''
+          />
         </div>
-        <div class='timeline-panel'>
-          <div class='timeline-heading'>
+        <div className='timeline-panel'>
+          <div className='timeline-heading'>
             <h4>{this.props.year}</h4>
-            <h4 class='subheading'>{this.props.heading}</h4>
+            <h4 className='subheading'>{this.props.heading}</h4>
           </div>
-          <div class='timeline-body'>
-            <p class='text-muted'>{this.props.description}</p>
+          <div className='timeline-body'>
+            <p className='text-muted'>{this.props.description}</p>
           </div>
         </div>
       </li>

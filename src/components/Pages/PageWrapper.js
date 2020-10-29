@@ -12,11 +12,7 @@ class PageWrapper extends Component {
         >
           <div className='container'>
             <Link className='navbar-brand js-scroll-trigger' to='/'>
-              <img
-                style={{ width: `40%`, height: `20%` }}
-                src='assets/img/mvtech.png'
-                alt=''
-              />
+              <img src='assets/img/navbar-logo.svg' alt='' />
             </Link>
             <button
               className='navbar-toggler navbar-toggler-right'

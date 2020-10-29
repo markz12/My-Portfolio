@@ -28,23 +28,23 @@ class Team extends Component {
     return (
       // <!-- Team-->
       <div>
-        <section class='page-section bg-light' id='team'>
-          <div class='container'>
-            <div class='text-center'>
-              <h2 class='section-heading text-uppercase'>My Team</h2>
-              <h3 class='section-subheading text-muted'>
+        <section className='page-section bg-light' id='team'>
+          <div className='container'>
+            <div className='text-center'>
+              <h2 className='section-heading text-uppercase'>My Team</h2>
+              <h3 className='section-subheading text-muted'>
                 Lorem ipsum dolor sit amet consectetur.
               </h3>
             </div>
-            <div class='row'>
+            <div className='row'>
               {/* Team Member */}
               {team.map((item, index) => {
                 return <TeamMember {...item} key={index} />;
               })}
             </div>
-            <div class='row'>
-              <div class='col-lg-8 mx-auto text-center'>
-                <p class='large text-muted'>
+            <div className='row'>
+              <div className='col-lg-8 mx-auto text-center'>
+                <p className='large text-muted'>
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
                   eaque, laboriosam veritatis, quos non quis ad perspiciatis,
                   totam corporis ea, alias ut unde.
@@ -54,40 +54,40 @@ class Team extends Component {
           </div>
         </section>
         {/* <!-- Clients--> */}
-        <div class='py-5'>
-          <div class='container'>
-            <div class='row'>
-              <div class='col-md-3 col-sm-6 my-3'>
+        <div className='py-5'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-md-3 col-sm-6 my-3'>
                 <a href='#!'>
                   <img
-                    class='img-fluid d-block mx-auto'
+                    className='img-fluid d-block mx-auto'
                     src='assets/img/logos/envato.jpg'
                     alt=''
                   />
                 </a>
               </div>
-              <div class='col-md-3 col-sm-6 my-3'>
+              <div className='col-md-3 col-sm-6 my-3'>
                 <a href='#!'>
                   <img
-                    class='img-fluid d-block mx-auto'
+                    className='img-fluid d-block mx-auto'
                     src='assets/img/logos/designmodo.jpg'
                     alt=''
                   />
                 </a>
               </div>
-              <div class='col-md-3 col-sm-6 my-3'>
+              <div className='col-md-3 col-sm-6 my-3'>
                 <a href='#!'>
                   <img
-                    class='img-fluid d-block mx-auto'
+                    className='img-fluid d-block mx-auto'
                     src='assets/img/logos/themeforest.jpg'
                     alt=''
                   />
                 </a>
               </div>
-              <div class='col-md-3 col-sm-6 my-3'>
+              <div className='col-md-3 col-sm-6 my-3'>
                 <a href='#!'>
                   <img
-                    class='img-fluid d-block mx-auto'
+                    className='img-fluid d-block mx-auto'
                     src='assets/img/logos/creative-market.jpg'
                     alt=''
                   />
