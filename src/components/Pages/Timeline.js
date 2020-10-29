@@ -8,17 +8,17 @@ import img2 from "../Asset/timeline/rdpawnshop.png";
 const timeline = [
   {
     image: img1,
-    year: "2017-2019",
+    year: "2017",
     heading: "Boyakz Gaming Zone(Diskless iCafe) Technology",
     description:
-      "This is my first journey to start a technology business, I also learn this on how to manage my skills regarding on technical & software.",
+      "This is my first journey to start a technology business, I also learn on how to manage my skills regarding on technical & software related.",
   },
   {
     image: img2,
-    year: "2019-2020",
+    year: "2019",
     heading: "Software Developer",
     description:
-      "My first job on the corporate company, I learn alot during this time and the scope of my job is to developed a system, support, testing and to check the qualify of a system.",
+      "My first job at a corporate company, I learn alot during this time and the scope of my job is to developed a system, support, testing and check the qualify of a system.",
   },
 ];
 
