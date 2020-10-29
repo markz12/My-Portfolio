@@ -10,10 +10,10 @@ class TeamMember extends Component {
           <p class='text-muted'>{this.props.role}</p>
           <a
             class='btn btn-dark btn-social mx-2'
-            href={this.props.fb}
+            href={this.props.github}
             target='_blank'
           >
-            <i class='fab fa-facebook-f'></i>
+            <i class='fab fa-github'></i>
           </a>
           <a
             class='btn btn-dark btn-social mx-2'

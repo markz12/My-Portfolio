@@ -11,14 +11,14 @@ const team = [
     member: "Mark Joseph Abelardo",
     role: "Software Engineer/Tester",
     image: team1,
-    fb: "",
+    github: "https://github.com/markz12",
     linkedin: "https://ph.linkedin.com/in/jave-lupango-bb280b174",
   },
   {
     member: "Jave Lupango",
     role: "Software Engineer/Support",
     image: team2,
-    fb: "https://www.facebook.com/javelupango",
+    github: "https://github.com/PanggaJave",
     linkedin: "https://ph.linkedin.com/in/jave-lupango-bb280b174",
   },
 ];
