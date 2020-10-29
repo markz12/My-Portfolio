@@ -12,7 +12,7 @@ const team = [
     role: "Software Engineer/Tester",
     image: team1,
     github: "https://github.com/markz12",
-    linkedin: "google.com",
+    linkedin: "https://www.linkedin.com/in/mark-joseph-abelardo-66ba92171",
   },
   {
     member: "Jave Lupango",
